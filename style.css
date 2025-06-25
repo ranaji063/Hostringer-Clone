@@ -1,0 +1,132 @@
+li {
+    list-style-type: none;
+}
+
+i {
+    color: green;
+}
+
+.img-fluid {
+  max-width: 100%;
+height: auto;
+}
+
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* optional: fix jumping */
+    }
+
+        /* Custom Login Button Style */
+        .login-btn {
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            border-radius: 5px;
+            padding: 8px 16px;
+            font-weight: bold;
+        }
+
+        .login-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Slight Zoom Effect */
+        }
+
+        .login-btn:active {
+            transform: scale(1); /* Reset Scale on Click */
+        }
+
+
+
+        .neon-btn {
+            background: #111;
+            color: #0ff;
+            border: 2px solid #0ff;
+            font-weight: bold;
+            text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+            box-shadow: 0 0 5px #0ff, 0 0 20px #0ff;
+            transition: 0.3s ease-in-out;
+          }
+          
+          .neon-btn:hover {
+            background-color: #0ff;
+            color: #111;
+            box-shadow: 0 0 10px #0ff, 0 0 40px #0ff;
+            transform: scale(1.05);
+          }
+          
+
+          .headline {
+            color: #6f42c1; /* A stylish purple */
+            font-weight: 700;
+            font-size: 3rem;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+          }
+          
+          .headline1 {
+            color: hsl(261, 100%, 50%); /* A stylish purple */
+            font-weight: 700;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+          }
+
+          button:hover {
+            transform: scale(1.05);
+            transition: 0.3s ease;
+            font-weight: bold;
+          }
+
+          
+
+          
+      .carousel {
+        overflow: hidden;
+        width: 100%; /* FULL WIDTH */
+        background-color: black;
+        padding: 30px 0;
+        /* margin-top: 0px; */
+        border-radius: 5px;
+        /* box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.7); */
+        position: relative;
+      }
+
+      .img-container {
+        display: flex;
+        width: max-content;
+        animation: scroll 15s linear infinite;
+        /* transition: transform 0.3s ease-in-out; */
+      }
+
+      .img-container img {
+        width: 400px;
+        height: 200px;
+        border-radius: 12px;
+        object-fit: cover;
+        border: 1px solid #a5a5a5;
+        margin-right: 15px;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      .img-container:hover {
+        animation-play-state: paused;
+        /* transform: scale(1.2); */
+      }
+      .image-container img {
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      .img-container:hover img {
+        opacity: 0.6;
+      }
+
+      ul li a {
+        text-decoration: none;
+      }
